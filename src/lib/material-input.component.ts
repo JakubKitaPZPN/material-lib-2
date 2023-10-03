@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
     <p>
       material-input works!
     </p>
+    <button mat-button color="primary">Primary</button>
   `,
   styles: [
   ]

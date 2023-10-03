@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { MaterialInputComponent } from './material-input.component';
-
+import {MatButtonModule} from '@angular/material/button';
 
 
 @NgModule({
@@ -8,6 +8,7 @@ import { MaterialInputComponent } from './material-input.component';
     MaterialInputComponent
   ],
   imports: [
+    MatButtonModule
   ],
   exports: [
     MaterialInputComponent
